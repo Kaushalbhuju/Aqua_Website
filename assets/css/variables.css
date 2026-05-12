@@ -1,0 +1,66 @@
+:root {
+    --primary: #0A2463;
+    --primary-light: #1E3A8A;
+    --primary-dark: #061540;
+    
+    --secondary: #3E9CDC;
+    --secondary-light: #5BB4E8;
+    --secondary-dark: #2B7AB8;
+    
+    --accent: #F97316;
+    --accent-light: #FB923C;
+    --accent-dark: #EA580C;
+    
+    --bg-primary: #FFFFFF;
+    --bg-secondary: #F8FAFC;
+    --bg-dark: #0F172A;
+    
+    --text-primary: #1E293B;
+    --text-secondary: #475569;
+    --text-light: #94A3B8;
+    --text-white: #FFFFFF;
+    
+    --border: #E2E8F0;
+    --border-light: #F1F5F9;
+    
+    --success: #10B981;
+    --warning: #F59E0B;
+    --error: #EF4444;
+    
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+    --shadow: 0 4px 6px rgba(0,0,0,0.07);
+    --shadow-md: 0 6px 15px rgba(0,0,0,0.1);
+    --shadow-lg: 0 10px 25px rgba(0,0,0,0.15);
+    --shadow-xl: 0 20px 40px rgba(0,0,0,0.2);
+    
+    --radius-sm: 6px;
+    --radius: 10px;
+    --radius-md: 15px;
+    --radius-lg: 20px;
+    --radius-xl: 30px;
+    --radius-full: 9999px;
+    
+    --transition-fast: 0.15s ease;
+    --transition: 0.3s ease;
+    --transition-slow: 0.5s ease;
+    
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --font-jp: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+    
+    --container-max: 1280px;
+    --container-padding: clamp(16px, 4vw, 40px);
+    
+    --z-dropdown: 100;
+    --z-sticky: 200;
+    --z-fixed: 300;
+    --z-modal: 400;
+    --z-tooltip: 500;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    :root {
+        --transition-fast: 0.01ms;
+        --transition: 0.01ms;
+        --transition-slow: 0.01ms;
+    }
+}
